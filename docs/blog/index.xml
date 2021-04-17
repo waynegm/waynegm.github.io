@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on WM Seismic Solutions</title>
+    <link>https://waynegm.github.io/blog/</link>
+    <description>Recent content in Blogs on WM Seismic Solutions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://waynegm.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GPU vs CPU Benchmarks for OpendTect Attribute Plugins</title>
+      <link>https://waynegm.github.io/blog/cpu-vs-gpu-benchmarks/</link>
+      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://waynegm.github.io/blog/cpu-vs-gpu-benchmarks/</guid>
+      <description>&lt;p&gt;The potential to offload calculations to the graphics processing unit (GPU) on modern graphics cards is a trending topic. I was curious if this could also apply to seismic attribute calculation in &lt;a href=&#34;https://opendtect.org/&#34;&gt;OpendTect&lt;/a&gt;, so I implemented AVO polarization angle estimation as described by &lt;a href=&#34;https://library.seg.org/doi/10.1190/1.1581037&#34; title=&#34;AVO polarization and hodograms: AVO strength and polarization product. Patrice Nsoga Mahob and John P. Castagna, GEOPHYSICS, VOL. 68, NO. 3, MAY-JUNE 2003&#34;&gt;Mahob and Castagna (2003)&lt;/a&gt; using 3 different approaches:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Python External Attributes - Debugging</title>
+      <link>https://waynegm.github.io/blog/python-external-attributes-debugging/</link>
+      <pubDate>Fri, 08 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://waynegm.github.io/blog/python-external-attributes-debugging/</guid>
+      <description>&lt;p&gt;Because the Python [../plugins/ExternalAttrib] script is running in a process started by the OpendTect application most standard methods to examine the script as it runs, eg using the standard Python debugger &lt;a href=&#34;https://docs.python.org/3/library/pdb.html&#34;&gt;pdb&lt;/a&gt;, are not available.&lt;/p&gt;
+&lt;p&gt;A solution is to use the &lt;a href=&#34;https://github.com/romanvm/python-web-pdb&#34;&gt;Web-PDB&lt;/a&gt; Python module which allows the Python script to be debugged remotely in a web-browser.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Python External Attribute - Logging</title>
+      <link>https://waynegm.github.io/blog/python-external-attributes-logging/</link>
+      <pubDate>Wed, 06 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://waynegm.github.io/blog/python-external-attributes-logging/</guid>
+      <description>&lt;p&gt;It is possible to write information to the OpendTect logfile from inside a Python [../plugins/ExternalAttrib] script.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Anatomy of a Python External Attribute</title>
+      <link>https://waynegm.github.io/blog/python-external-attributes-anatomy/</link>
+      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://waynegm.github.io/blog/python-external-attributes-anatomy/</guid>
+      <description>&lt;p&gt;This article will review the structure of a simple Python [../plugins/ExternalAttrib] script, &lt;a href=&#34;https://github.com/waynegm/OpendTect-External-Attributes/blob/master/Python_3/DipAndAzimuth/ex_dip.py&#34;&gt;ex_dip.py&lt;/a&gt;, which converts inline and crossline dip to true dip and dip azimuth. It is an example of multi attribute, single trace input and output. Some basic understanding of &lt;a href=&#34;https://www.python.org/&#34;&gt;Python&lt;/a&gt; and &lt;a href=&#34;http://www.numpy.org/&#34;&gt;Numpy&lt;/a&gt; is assumed.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

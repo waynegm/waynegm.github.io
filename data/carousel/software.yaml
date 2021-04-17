@@ -1,0 +1,10 @@
+weight: 4
+title: "Software"
+description: >
+  <ul class="list-style-none">
+    <li>OpendTect plugin development</li>
+    <li>OpendTect support/advice</li>
+    <li>Geoscience software development</li>
+    <li>Opensource software integration</li>
+  </ul>
+image: "img/carousel/opendtect.png"

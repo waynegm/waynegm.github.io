@@ -1,0 +1,42 @@
+.bar.background-gray.no-mb {
+  padding: 10px 0;
+}
+
+.bar.background-white.no-mb {
+  padding: 10px 0;
+}
+
+.homepage.owl-carousel.owl-theme {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+section, div.section {
+    margin-bottom: 10px;
+}
+
+.heading.text-center {
+    margin-bottom: 10px;
+}
+
+.owl-carousel.customers.owl-theme {
+    margin-bottom: 10px;
+}
+    
+p.lead {
+    margin-bottom: 20px;
+}    
+
+box-image-text .image {
+  min-height: 200px;
+  max-height: 200px;
+}
+
+.box-simple {
+  min-height: 230px;
+}
+
+.img-centered {
+    text-align: center;
+    padding: 10px 0;
+}

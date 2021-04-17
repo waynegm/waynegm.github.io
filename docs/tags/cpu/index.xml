@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cpu on WM Seismic Solutions</title>
+    <link>https://waynegm.github.io/tags/cpu/</link>
+    <description>Recent content in cpu on WM Seismic Solutions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://waynegm.github.io/tags/cpu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GPU vs CPU Benchmarks for OpendTect Attribute Plugins</title>
+      <link>https://waynegm.github.io/blog/cpu-vs-gpu-benchmarks/</link>
+      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://waynegm.github.io/blog/cpu-vs-gpu-benchmarks/</guid>
+      <description>&lt;p&gt;The potential to offload calculations to the graphics processing unit (GPU) on modern graphics cards is a trending topic. I was curious if this could also apply to seismic attribute calculation in &lt;a href=&#34;https://opendtect.org/&#34;&gt;OpendTect&lt;/a&gt;, so I implemented AVO polarization angle estimation as described by &lt;a href=&#34;https://library.seg.org/doi/10.1190/1.1581037&#34; title=&#34;AVO polarization and hodograms: AVO strength and polarization product. Patrice Nsoga Mahob and John P. Castagna, GEOPHYSICS, VOL. 68, NO. 3, MAY-JUNE 2003&#34;&gt;Mahob and Castagna (2003)&lt;/a&gt; using 3 different approaches:&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
