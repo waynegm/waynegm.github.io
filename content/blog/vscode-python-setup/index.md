@@ -6,7 +6,7 @@ date = "2021-06-05"
 banner = "/blog/vscode-python-setup/image-01.png"
 +++
 In this post I show you how to set up and use the free [Visual Studio Code](https://code.visualstudio.com/) editor with OpendTect for interactive
-computation using Python Jupyter Notebooks. If you are have installed the OpendTect Machine Learning Python environments you can
+computation using Python Jupyter Notebooks. If you have installed the OpendTect Machine Learning Python environments you can
 create and edit Python Jupyter Notebooks using Visual Studio Code without modifying the installed environment provided VS Code is run from within
 OpendTect. The approach described in this post might assist users in strictly controlled IT settings get up and running using Jupyter Notebooks.
 <!--more-->
