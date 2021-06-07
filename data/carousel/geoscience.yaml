@@ -1,0 +1,10 @@
+weight: 1
+title: "Geoscience"
+description: >
+  <ul class="list-style-none">
+    <li>Seismic interpretation</li>
+    <li>Prospect/play evaluation</li>
+    <li>New ventures</li>
+    <li>Seismic processing QC</li>
+  </ul>
+image: "img/carousel/geoscience.jpg"

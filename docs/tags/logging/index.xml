@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>logging on WM Seismic Solutions</title>
+    <link>https://waynegm.github.io/tags/logging/</link>
+    <description>Recent content in logging on WM Seismic Solutions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 06 Jun 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://waynegm.github.io/tags/logging/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python External Attribute - Logging</title>
+      <link>https://waynegm.github.io/blog/python-external-attributes-logging/</link>
+      <pubDate>Wed, 06 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://waynegm.github.io/blog/python-external-attributes-logging/</guid>
+      <description>&lt;p&gt;It is possible to write information to the OpendTect logfile from inside a Python [../plugins/ExternalAttrib] script.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

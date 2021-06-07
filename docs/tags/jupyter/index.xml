@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jupyter on WM Seismic Solutions</title>
+    <link>https://waynegm.github.io/tags/jupyter/</link>
+    <description>Recent content in jupyter on WM Seismic Solutions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://waynegm.github.io/tags/jupyter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using Visual Studio Code with OpendTect</title>
+      <link>https://waynegm.github.io/blog/vscode-python-setup/</link>
+      <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://waynegm.github.io/blog/vscode-python-setup/</guid>
+      <description>&lt;p&gt;In this post I show you how to set up and use the free &lt;a href=&#34;https://code.visualstudio.com/&#34;&gt;Visual Studio Code&lt;/a&gt; editor with OpendTect for interactive
+computation using Python Jupyter Notebooks. If you are have installed the OpendTect Machine Learning Python environments you can
+create and edit Python Jupyter Notebooks using Visual Studio Code without modifying the installed environment provided VS Code is run from within
+OpendTect. The approach described in this post might assist users in strictly controlled IT settings get up and running using Jupyter Notebooks.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
