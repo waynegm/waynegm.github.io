@@ -6,7 +6,43 @@
     <description>Recent content in Tags on WM Seismic Solutions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://waynegm.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://waynegm.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>external attribute</title>
+      <link>https://waynegm.github.io/tags/external-attribute/</link>
+      <pubDate>Sat, 26 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://waynegm.github.io/tags/external-attribute/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>inversion</title>
+      <link>https://waynegm.github.io/tags/inversion/</link>
+      <pubDate>Sat, 26 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://waynegm.github.io/tags/inversion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pylops</title>
+      <link>https://waynegm.github.io/tags/pylops/</link>
+      <pubDate>Sat, 26 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://waynegm.github.io/tags/pylops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://waynegm.github.io/tags/python/</link>
+      <pubDate>Sat, 26 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://waynegm.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>code</title>
       <link>https://waynegm.github.io/tags/code/</link>
@@ -35,20 +71,38 @@
     </item>
     
     <item>
-      <title>python</title>
-      <link>https://waynegm.github.io/tags/python/</link>
-      <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://waynegm.github.io/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>visual studio</title>
       <link>https://waynegm.github.io/tags/visual-studio/</link>
       <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://waynegm.github.io/tags/visual-studio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mapping</title>
+      <link>https://waynegm.github.io/tags/mapping/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://waynegm.github.io/tags/mapping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>QGIS</title>
+      <link>https://waynegm.github.io/tags/qgis/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://waynegm.github.io/tags/qgis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wells</title>
+      <link>https://waynegm.github.io/tags/wells/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://waynegm.github.io/tags/wells/</guid>
       <description></description>
     </item>
     
@@ -85,15 +139,6 @@
       <pubDate>Fri, 08 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://waynegm.github.io/tags/debugging/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>external attribute</title>
-      <link>https://waynegm.github.io/tags/external-attribute/</link>
-      <pubDate>Fri, 08 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://waynegm.github.io/tags/external-attribute/</guid>
       <description></description>
     </item>
     

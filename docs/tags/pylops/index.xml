@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pylops on WM Seismic Solutions</title>
+    <link>https://waynegm.github.io/tags/pylops/</link>
+    <description>Recent content in pylops on WM Seismic Solutions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 26 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://waynegm.github.io/tags/pylops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Seismic Modelling and Inversion using PyLops based Python External Attributes</title>
+      <link>https://waynegm.github.io/blog/python-external-attributes-pylops/</link>
+      <pubDate>Sat, 26 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://waynegm.github.io/blog/python-external-attributes-pylops/</guid>
+      <description>&lt;p&gt;The 6.6.8 release of the wmPlugins includes a number of new Python external attribute scripts that use the
+&lt;a href=&#34;https://pylops.readthedocs.io/en/latest/&#34;&gt;PyLops&lt;/a&gt; linear operator library for seismic modelling and inversion.
+These scripts also demonstrate the use of the new user interface parameter elements introduced in the 6.6.8 release
+of the External Attribute plugin.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

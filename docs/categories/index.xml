@@ -6,7 +6,16 @@
     <description>Recent content in Categories on WM Seismic Solutions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://waynegm.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://waynegm.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>attribute</title>
+      <link>https://waynegm.github.io/categories/attribute/</link>
+      <pubDate>Sat, 26 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://waynegm.github.io/categories/attribute/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>howto</title>
       <link>https://waynegm.github.io/categories/howto/</link>
@@ -17,11 +26,20 @@
     </item>
     
     <item>
-      <title>attribute</title>
-      <link>https://waynegm.github.io/categories/attribute/</link>
-      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
+      <title>Python</title>
+      <link>https://waynegm.github.io/categories/python/</link>
+      <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://waynegm.github.io/categories/attribute/</guid>
+      <guid>https://waynegm.github.io/categories/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>QGIS</title>
+      <link>https://waynegm.github.io/categories/qgis/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://waynegm.github.io/categories/qgis/</guid>
       <description></description>
     </item>
     

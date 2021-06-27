@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 05 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://waynegm.github.io/categories/howto/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Setting up Jupyter_Lab with OpendTect</title>
+      <link>https://waynegm.github.io/blog/jupyterlab-python-setup/</link>
+      <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://waynegm.github.io/blog/jupyterlab-python-setup/</guid>
+      <description>Fixing the kernel.json file for OpendTect Python The Jupyter architecture uses &amp;ldquo;kernel.json&amp;rdquo; files to identify a Jupyter kernel. If you have installed OpendTect and installed and selected one of the OpendTect ML Python environments in the Python Settings dialog, you can use the following command sequences on Linux and Windows to show a list of available Jupyter kernels. Open a console window (press Ctrl-T with the cursor in the OpendTect window) and enter the following depending on your system:</description>
+    </item>
+    
+    <item>
       <title>Using Visual Studio Code with OpendTect</title>
       <link>https://waynegm.github.io/blog/vscode-python-setup/</link>
       <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>

@@ -2,7 +2,8 @@
 title = "Setting up Jupyter_Lab with OpendTect"
 tags = ["python","jupyter","code","opendtect"]
 categories = ["howto"]
-date = "2022-06-05"
+date = "2021-06-05"
+draft = true
 banner = "/blog/jupyterlab-python-setup/image-01.png"
 +++
 ## Fixing the kernel.json file for OpendTect Python
@@ -77,8 +78,8 @@ The edited "kernel.json" file will look like:
  "language": "python"
 }
 ```
-Note, as shown here, it might be handy to customise the "display_name" field because this will be displayed in the list of Python environments that
-VS Code shows in it's user interface. Also note the use of forward slashes as opposed to backslashes in the file path because
+Note, as shown here, it might be handy to customise the "display_name" field because this will be displayed in the list of Python environments
+in the Jupyter UI. Also note the use of forward slashes as opposed to backslashes in the file path because
 backslashes have special meaning in JSON. Python will handle the path correctly on Windows but if you must use backslashes you will need
 to replace each single backslash with a double backslash (eg "C:\\\Program Files\\\OpendTect\\\Python\\\envs\\\odmlpython-cpu-mkl\\\python.exe").
 After creating the file you can verify it is recognised by repeating the "jupyter kernelspec list" command:
