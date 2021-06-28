@@ -25,23 +25,5 @@
       <description></description>
     </item>
     
-    <item>
-      <title>Python</title>
-      <link>https://waynegm.github.io/categories/python/</link>
-      <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://waynegm.github.io/categories/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>QGIS</title>
-      <link>https://waynegm.github.io/categories/qgis/</link>
-      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://waynegm.github.io/categories/qgis/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
