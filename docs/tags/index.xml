@@ -6,7 +6,25 @@
     <description>Recent content in Tags on WM Seismic Solutions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 26 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://waynegm.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://waynegm.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>opendtect</title>
+      <link>https://waynegm.github.io/tags/opendtect/</link>
+      <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://waynegm.github.io/tags/opendtect/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://waynegm.github.io/tags/python/</link>
+      <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://waynegm.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>external attribute</title>
       <link>https://waynegm.github.io/tags/external-attribute/</link>
@@ -35,15 +53,6 @@
     </item>
     
     <item>
-      <title>python</title>
-      <link>https://waynegm.github.io/tags/python/</link>
-      <pubDate>Sat, 26 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://waynegm.github.io/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>code</title>
       <link>https://waynegm.github.io/tags/code/</link>
       <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
@@ -58,15 +67,6 @@
       <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://waynegm.github.io/tags/jupyter/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>opendtect</title>
-      <link>https://waynegm.github.io/tags/opendtect/</link>
-      <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://waynegm.github.io/tags/opendtect/</guid>
       <description></description>
     </item>
     

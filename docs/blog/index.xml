@@ -6,7 +6,17 @@
     <description>Recent content in Blogs on WM Seismic Solutions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 26 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://waynegm.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://waynegm.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Release of Python Bindings to OpendTect</title>
+      <link>https://waynegm.github.io/blog/opendtect-python-bindings-release/</link>
+      <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://waynegm.github.io/blog/opendtect-python-bindings-release/</guid>
+      <description>&lt;p&gt;The 6.6.8 release of the wmPlugins includes a Python module, &lt;strong&gt;wmodpy&lt;/strong&gt;, to access OpendTect survey and well information. Unlike
+OpendTect&amp;rsquo;s existing &lt;strong&gt;odpy&lt;/strong&gt; module, &lt;strong&gt;wmodpy&lt;/strong&gt; is a direct binding to the OpendTect C++ code.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Seismic Modelling and Inversion using PyLops based Python External Attributes</title>
       <link>https://waynegm.github.io/blog/python-external-attributes-pylops/</link>
