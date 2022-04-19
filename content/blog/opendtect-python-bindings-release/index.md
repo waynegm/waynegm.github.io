@@ -1,7 +1,7 @@
 +++
 title = "First Release of Python Bindings to OpendTect"
-tags = ["python","opendtect"]
-categories = ["Python"]
+tags = ["python"]
+categories = ["release", "article"]
 date = "2021-06-29"
 banner = "/blog/opendtect-python-bindings-release/image-01.png"
 +++

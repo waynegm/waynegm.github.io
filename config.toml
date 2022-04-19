@@ -22,11 +22,6 @@ publishDir = "docs"
     url  = "/services/"
     weight = 2
 
-[[menu.main]]
-    identifier="blog"
-    name = "Blog"
-    url  = "/blog/"
-    weight = 3
 
 [[menu.main]]
     identifier = "contact"
@@ -42,13 +37,13 @@ publishDir = "docs"
     name = "Github"
     url = "https://github.com/waynegm"
     pre = "<i class='fab fa-2x fa-github' style='padding: 20px 0;'></i>"
-    
+
 [[menu.social]]
     weight = 2
     name = "LinkedIn"
     url = "https://www.linkedin.com/in/waynemogg/"
     pre = "<i class='fab fa-2x fa-linkedin' ></i>"
-    
+
 [params]
     author = "Wayne Mogg"
     style = "green"
@@ -58,18 +53,18 @@ publishDir = "docs"
 
     formspree_action = "https://formspree.io/f/xayaygyo"
     contact_form_ajax = false
-    
+
     logo = "img/logo.png"
     logo_small = "img/logo_small.png"
-    
+
     copyright = "Copyright (c) 2021, Wayne Mogg; all rights reserved."
 
 [permalinks]
     blog = "/blog/:filename/"
-    
+
 [params.carousel]
     enable = true
-    
+
 [params.recent_posts]
     enable = true
     title = "Recent Articles"
@@ -80,9 +75,9 @@ publishDir = "docs"
     search = true
     categories = true
     tags = true
-    
+
 [params.clients]
     enable = true
     title = "Clients"
     subtitle = ""
-    
+

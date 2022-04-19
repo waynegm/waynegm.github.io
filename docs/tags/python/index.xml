@@ -6,7 +6,17 @@
     <description>Recent content in python on WM Seismic Solutions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://waynegm.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://waynegm.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WMPlugins 6.6.10 Release</title>
+      <link>https://waynegm.github.io/blog/wmplugins-release-6.6.10/</link>
+      <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://waynegm.github.io/blog/wmplugins-release-6.6.10/</guid>
+      <description>&lt;p&gt;Announcing the release of version 6.6.10 of the WMPlugins a suite of opensource plugins that extend the opensource seismic interpretation
+system &lt;a href=&#34;https://dgbes.com/index.php/software#free&#34;&gt;OpendTect&lt;/a&gt;. This release is built against OpendTect 6.6.7.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>First Release of Python Bindings to OpendTect</title>
       <link>https://waynegm.github.io/blog/opendtect-python-bindings-release/</link>
@@ -42,31 +52,37 @@ OpendTect. The approach described in this post might assist users in strictly co
     </item>
     
     <item>
-      <title>Python External Attributes - Debugging</title>
-      <link>https://waynegm.github.io/blog/python-external-attributes-debugging/</link>
+      <title>Python External Attribute Tips &amp; Tricks - Debugging</title>
+      <link>https://waynegm.github.io/blog/post_2018-06-08/</link>
       <pubDate>Fri, 08 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://waynegm.github.io/blog/python-external-attributes-debugging/</guid>
-      <description>&lt;p&gt;Because the Python [../plugins/ExternalAttrib] script is running in a process started by the OpendTect application most standard methods to examine the script as it runs, eg using the standard Python debugger &lt;a href=&#34;https://docs.python.org/3/library/pdb.html&#34;&gt;pdb&lt;/a&gt;, are not available.&lt;/p&gt;
-&lt;p&gt;A solution is to use the &lt;a href=&#34;https://github.com/romanvm/python-web-pdb&#34;&gt;Web-PDB&lt;/a&gt; Python module which allows the Python script to be debugged remotely in a web-browser.&lt;/p&gt;</description>
+      <guid>https://waynegm.github.io/blog/post_2018-06-08/</guid>
+      <description>Introduction Because the Python [../plugins/ExternalAttrib] script is running in a process started by the OpendTect application most standard methods to examine the script as it runs, eg using the standard Python debugger pdb, are not available.
+A solution is to use the Web-PDB Python module which allows the Python script to be debugged remotely in a web-browser.
+Web-PDB Installation Web-PDB is not included by default in most Python installations but it can be easily added using pip:</description>
     </item>
     
     <item>
-      <title>Python External Attribute - Logging</title>
-      <link>https://waynegm.github.io/blog/python-external-attributes-logging/</link>
+      <title>Python External Attribute Tips &amp; Tricks - Logging</title>
+      <link>https://waynegm.github.io/blog/post_2018-06-06/</link>
       <pubDate>Wed, 06 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://waynegm.github.io/blog/python-external-attributes-logging/</guid>
-      <description>&lt;p&gt;It is possible to write information to the OpendTect logfile from inside a Python [../plugins/ExternalAttrib] script.&lt;/p&gt;</description>
+      <guid>https://waynegm.github.io/blog/post_2018-06-06/</guid>
+      <description>Introduction It is possible to write information to the OpendTect logfile from inside a Python [../plugins/ExternalAttrib] script.
+The global variable xa.logH (assuming the extattrib module has been imported using import extattrib as xa) is a Python logger object.
+An Example  On line 18 the Python logger is modified by adjusting the severity level of messages that will appear in the log file. By default only CRITICAL, ERROR and WARNING messages will be written.</description>
     </item>
     
     <item>
       <title>Anatomy of a Python External Attribute</title>
-      <link>https://waynegm.github.io/blog/python-external-attributes-anatomy/</link>
+      <link>https://waynegm.github.io/blog/post_2018-06-04/</link>
       <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://waynegm.github.io/blog/python-external-attributes-anatomy/</guid>
-      <description>&lt;p&gt;This article will review the structure of a simple Python [../plugins/ExternalAttrib] script, &lt;a href=&#34;https://github.com/waynegm/OpendTect-External-Attributes/blob/master/Python_3/DipAndAzimuth/ex_dip.py&#34;&gt;ex_dip.py&lt;/a&gt;, which converts inline and crossline dip to true dip and dip azimuth. It is an example of multi attribute, single trace input and output. Some basic understanding of &lt;a href=&#34;https://www.python.org/&#34;&gt;Python&lt;/a&gt; and &lt;a href=&#34;http://www.numpy.org/&#34;&gt;Numpy&lt;/a&gt; is assumed.&lt;/p&gt;</description>
+      <guid>https://waynegm.github.io/blog/post_2018-06-04/</guid>
+      <description>Introduction This article will review the structure of a simple Python [../plugins/ExternalAttrib] script, ex_dip.py, which converts inline and crossline dip to true dip and dip azimuth. It is an example of multi attribute, single trace input and output. Some basic understanding of Python and Numpy is assumed.
+Every Python attribute script has 5 sections.
+The Imports  Imports Section
+  This is where external modules/libraries required by the script are loaded.</description>
     </item>
     
   </channel>

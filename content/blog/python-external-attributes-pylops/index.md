@@ -1,7 +1,7 @@
 +++
 title = "Seismic Modelling and Inversion using PyLops based Python External Attributes"
-tags = ["python","external attribute","pylops","inversion"]
-categories = ["attribute"]
+tags = ["python","ExternalAttrib","pylops","inversion"]
+categories = ["article"]
 date = "2021-06-26"
 banner = "/blog/python-external-attributes-pylops/image-02.jpg"
 +++
