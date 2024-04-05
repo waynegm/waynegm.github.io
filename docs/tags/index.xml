@@ -2,73 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on WM Seismic Solutions</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://waynegm.github.io/tags/</link>
     <description>Recent content in Tags on WM Seismic Solutions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 15 Apr 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://waynegm.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AVOPolarAttrib</title>
-      <link>http://localhost:1313/tags/avopolarattrib/</link>
+      <link>https://waynegm.github.io/tags/avopolarattrib/</link>
       <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/avopolarattrib/</guid>
+      <guid>https://waynegm.github.io/tags/avopolarattrib/</guid>
       <description></description>
     </item>
     <item>
       <title>EFDAttrib</title>
-      <link>http://localhost:1313/tags/efdattrib/</link>
+      <link>https://waynegm.github.io/tags/efdattrib/</link>
       <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/efdattrib/</guid>
+      <guid>https://waynegm.github.io/tags/efdattrib/</guid>
       <description></description>
     </item>
     <item>
       <title>ExternalAttrib</title>
-      <link>http://localhost:1313/tags/externalattrib/</link>
+      <link>https://waynegm.github.io/tags/externalattrib/</link>
       <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/externalattrib/</guid>
+      <guid>https://waynegm.github.io/tags/externalattrib/</guid>
       <description></description>
     </item>
     <item>
       <title>Mistie</title>
-      <link>http://localhost:1313/tags/mistie/</link>
+      <link>https://waynegm.github.io/tags/mistie/</link>
       <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/mistie/</guid>
+      <guid>https://waynegm.github.io/tags/mistie/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>http://localhost:1313/tags/python/</link>
+      <link>https://waynegm.github.io/tags/python/</link>
       <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/python/</guid>
+      <guid>https://waynegm.github.io/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>Inversion</title>
-      <link>http://localhost:1313/tags/inversion/</link>
+      <link>https://waynegm.github.io/tags/inversion/</link>
       <pubDate>Sat, 26 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/inversion/</guid>
+      <guid>https://waynegm.github.io/tags/inversion/</guid>
       <description></description>
     </item>
     <item>
       <title>Pylops</title>
-      <link>http://localhost:1313/tags/pylops/</link>
+      <link>https://waynegm.github.io/tags/pylops/</link>
       <pubDate>Sat, 26 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/pylops/</guid>
+      <guid>https://waynegm.github.io/tags/pylops/</guid>
       <description></description>
     </item>
     <item>
       <title>Jupyter</title>
-      <link>http://localhost:1313/tags/jupyter/</link>
+      <link>https://waynegm.github.io/tags/jupyter/</link>
       <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/jupyter/</guid>
+      <guid>https://waynegm.github.io/tags/jupyter/</guid>
       <description></description>
     </item>
     <item>
       <title>VSCode</title>
-      <link>http://localhost:1313/tags/vscode/</link>
+      <link>https://waynegm.github.io/tags/vscode/</link>
       <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/vscode/</guid>
+      <guid>https://waynegm.github.io/tags/vscode/</guid>
       <description></description>
     </item>
   </channel>
