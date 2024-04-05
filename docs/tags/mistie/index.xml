@@ -2,20 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mistie on WM Seismic Solutions</title>
-    <link>https://waynegm.github.io/tags/mistie/</link>
+    <link>http://localhost:1313/tags/mistie/</link>
     <description>Recent content in Mistie on WM Seismic Solutions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://waynegm.github.io/tags/mistie/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/mistie/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WMPlugins 6.6.10 Release</title>
-      <link>https://waynegm.github.io/blog/wmplugins-release-6.6.10/</link>
+      <link>http://localhost:1313/blog/wmplugins-release-6.6.10/</link>
       <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://waynegm.github.io/blog/wmplugins-release-6.6.10/</guid>
-      <description>&lt;p&gt;Announcing the release of version 6.6.10 of the WMPlugins a suite of opensource plugins that extend the opensource seismic interpretation
-system &lt;a href=&#34;https://dgbes.com/index.php/software#free&#34;&gt;OpendTect&lt;/a&gt;. This release is built against OpendTect 6.6.7.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/blog/wmplugins-release-6.6.10/</guid>
+      <description>&lt;p&gt;Announcing the release of version 6.6.10 of the WMPlugins a suite of opensource plugins that extend the opensource seismic interpretation&#xA;system &lt;a href=&#34;https://dgbes.com/index.php/software#free&#34;&gt;OpendTect&lt;/a&gt;. This release is built against OpendTect 6.6.7.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

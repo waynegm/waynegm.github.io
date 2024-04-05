@@ -2,80 +2,80 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://waynegm.github.io/tags/avopolarattrib/</loc>
+    <loc>http://localhost:1313/tags/avopolarattrib/</loc>
     <lastmod>2022-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://waynegm.github.io/blog/</loc>
+    <loc>http://localhost:1313/blog/</loc>
     <lastmod>2022-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://waynegm.github.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2022-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://waynegm.github.io/tags/efdattrib/</loc>
+    <loc>http://localhost:1313/tags/efdattrib/</loc>
     <lastmod>2022-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://waynegm.github.io/tags/externalattrib/</loc>
+    <loc>http://localhost:1313/tags/externalattrib/</loc>
     <lastmod>2022-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://waynegm.github.io/tags/mistie/</loc>
+    <loc>http://localhost:1313/tags/mistie/</loc>
     <lastmod>2022-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://waynegm.github.io/tags/python/</loc>
+    <loc>http://localhost:1313/tags/python/</loc>
     <lastmod>2022-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://waynegm.github.io/categories/release/</loc>
+    <loc>http://localhost:1313/categories/release/</loc>
     <lastmod>2022-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://waynegm.github.io/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2022-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://waynegm.github.io/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2022-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://waynegm.github.io/blog/wmplugins-release-6.6.10/</loc>
+    <loc>http://localhost:1313/blog/wmplugins-release-6.6.10/</loc>
     <lastmod>2022-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://waynegm.github.io/categories/article/</loc>
+    <loc>http://localhost:1313/categories/article/</loc>
     <lastmod>2021-06-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://waynegm.github.io/blog/opendtect-python-bindings-release/</loc>
+    <loc>http://localhost:1313/blog/opendtect-python-bindings-release/</loc>
     <lastmod>2021-06-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://waynegm.github.io/tags/inversion/</loc>
+    <loc>http://localhost:1313/tags/inversion/</loc>
     <lastmod>2021-06-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://waynegm.github.io/tags/pylops/</loc>
+    <loc>http://localhost:1313/tags/pylops/</loc>
     <lastmod>2021-06-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://waynegm.github.io/blog/python-external-attributes-pylops/</loc>
+    <loc>http://localhost:1313/blog/python-external-attributes-pylops/</loc>
     <lastmod>2021-06-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://waynegm.github.io/categories/howto/</loc>
+    <loc>http://localhost:1313/categories/howto/</loc>
     <lastmod>2021-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://waynegm.github.io/tags/jupyter/</loc>
+    <loc>http://localhost:1313/tags/jupyter/</loc>
     <lastmod>2021-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://waynegm.github.io/blog/vscode-python-setup/</loc>
+    <loc>http://localhost:1313/blog/vscode-python-setup/</loc>
     <lastmod>2021-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://waynegm.github.io/tags/vscode/</loc>
+    <loc>http://localhost:1313/tags/vscode/</loc>
     <lastmod>2021-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://waynegm.github.io/blog/post_2019-01-07/</loc>
+    <loc>http://localhost:1313/blog/post_2019-01-07/</loc>
     <lastmod>2019-01-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://waynegm.github.io/blog/post_2018-06-08/</loc>
+    <loc>http://localhost:1313/blog/post_2018-06-08/</loc>
     <lastmod>2018-06-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://waynegm.github.io/blog/post_2018-06-06/</loc>
+    <loc>http://localhost:1313/blog/post_2018-06-06/</loc>
     <lastmod>2018-06-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://waynegm.github.io/blog/post_2018-06-04/</loc>
+    <loc>http://localhost:1313/blog/post_2018-06-04/</loc>
     <lastmod>2018-06-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://waynegm.github.io/contact/</loc>
+    <loc>http://localhost:1313/contact/</loc>
   </url><url>
-    <loc>https://waynegm.github.io/services/</loc>
+    <loc>http://localhost:1313/services/</loc>
   </url>
 </urlset>

@@ -2,91 +2,74 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on WM Seismic Solutions</title>
-    <link>https://waynegm.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on WM Seismic Solutions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://waynegm.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AVOPolarAttrib</title>
-      <link>https://waynegm.github.io/tags/avopolarattrib/</link>
+      <link>http://localhost:1313/tags/avopolarattrib/</link>
       <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://waynegm.github.io/tags/avopolarattrib/</guid>
+      <guid>http://localhost:1313/tags/avopolarattrib/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>EFDAttrib</title>
-      <link>https://waynegm.github.io/tags/efdattrib/</link>
+      <link>http://localhost:1313/tags/efdattrib/</link>
       <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://waynegm.github.io/tags/efdattrib/</guid>
+      <guid>http://localhost:1313/tags/efdattrib/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>ExternalAttrib</title>
-      <link>https://waynegm.github.io/tags/externalattrib/</link>
+      <link>http://localhost:1313/tags/externalattrib/</link>
       <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://waynegm.github.io/tags/externalattrib/</guid>
+      <guid>http://localhost:1313/tags/externalattrib/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Mistie</title>
-      <link>https://waynegm.github.io/tags/mistie/</link>
+      <link>http://localhost:1313/tags/mistie/</link>
       <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://waynegm.github.io/tags/mistie/</guid>
+      <guid>http://localhost:1313/tags/mistie/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>python</title>
-      <link>https://waynegm.github.io/tags/python/</link>
+      <title>Python</title>
+      <link>http://localhost:1313/tags/python/</link>
       <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://waynegm.github.io/tags/python/</guid>
+      <guid>http://localhost:1313/tags/python/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>inversion</title>
-      <link>https://waynegm.github.io/tags/inversion/</link>
+      <title>Inversion</title>
+      <link>http://localhost:1313/tags/inversion/</link>
       <pubDate>Sat, 26 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://waynegm.github.io/tags/inversion/</guid>
+      <guid>http://localhost:1313/tags/inversion/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>pylops</title>
-      <link>https://waynegm.github.io/tags/pylops/</link>
+      <title>Pylops</title>
+      <link>http://localhost:1313/tags/pylops/</link>
       <pubDate>Sat, 26 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://waynegm.github.io/tags/pylops/</guid>
+      <guid>http://localhost:1313/tags/pylops/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Jupyter</title>
-      <link>https://waynegm.github.io/tags/jupyter/</link>
+      <link>http://localhost:1313/tags/jupyter/</link>
       <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://waynegm.github.io/tags/jupyter/</guid>
+      <guid>http://localhost:1313/tags/jupyter/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>VSCode</title>
-      <link>https://waynegm.github.io/tags/vscode/</link>
+      <link>http://localhost:1313/tags/vscode/</link>
       <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://waynegm.github.io/tags/vscode/</guid>
+      <guid>http://localhost:1313/tags/vscode/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

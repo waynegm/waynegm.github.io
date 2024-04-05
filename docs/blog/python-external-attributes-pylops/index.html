@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
@@ -18,7 +18,7 @@
   
   <meta name="description" content="">
 
-  <meta name="generator" content="Hugo 0.96.0" />
+  <meta name="generator" content="Hugo 0.124.1">
 
   
   <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
@@ -55,7 +55,7 @@
   <link href="/css/owl.theme.css" rel="stylesheet">
 
   
-  <link rel="alternate" href="https://waynegm.github.io/index.xml" type="application/rss+xml" title="WM Seismic Solutions">
+  <link rel="alternate" href="http://localhost:1313/index.xml" type="application/rss+xml" title="WM Seismic Solutions">
 
   
   
@@ -199,7 +199,7 @@
                         
 
                         <div id="post-content">
-                          <p>The 6.6.8 release of the wmPlugins includes a number of new Python external attribute scripts that use the
+                          <p>The 6.6.8 release of the <a href="https://waynegm.github.io/WMPlugin-Docs/">WMPlugins</a> includes a number of new Python external attribute scripts that use the
 <a href="https://pylops.readthedocs.io/en/latest/">PyLops</a> linear operator library for seismic modelling and inversion.
 These scripts also demonstrate the use of the new user interface parameter elements introduced in the 6.6.8 release
 of the External Attribute plugin.</p>
@@ -215,9 +215,9 @@ of the External Attribute plugin.</p>
 <p>Using these scripts requires a Python environment with the PyLops python module and it&rsquo;s dependencies installed.
 The section <a href="#installing-pylops">Installing PyLops</a> describes the PyLops installation process. Note
 that a PyLops python environment includes all the modules required to run any attribute script included with the
-<strong>wmPlugins</strong> not just those in the PyLops folder.</p>
+<strong>WMPlugins</strong> not just those in the PyLops folder.</p>
 <h2 id="post-stack--seismic-inversion">Post-Stack  Seismic Inversion</h2>
-<figure class="img-centered"><img src="image-01.png" width="90%"/>
+<figure class="img-centered"><img src="/blog/python-external-attributes-pylops/image-01.png" width="90%">
 </figure>
 
 <p>The PyLops/ex_poststack_inversion.py script uses the pylops.avo.poststack.PoststackInversion operator to do
@@ -225,39 +225,39 @@ post-stack seismic inversion. The output is either the log Acoustic Impedance (A
 <p>The inputs required are volumes of the seismic to be inverted, a background log AI model and the seismic wavelet.
 Note that the polarity of the seismic wavelet must match the data.</p>
 <p>The following figures show inversion input and output for a 1D model created by the PyLops/ex_make_1d_seismic.py script.</p>
-<p><figure class="img-centered"><img src="image-02.png"
-         alt="Impedance Model (red) and Background Model (blue)" width="100%"/><figcaption>
-            <p><strong>Impedance Model (red) and Background Model (blue)</strong></p>
-        </figcaption>
+<p><figure class="img-centered"><img src="/blog/python-external-attributes-pylops/image-02.png"
+    alt="Impedance Model (red) and Background Model (blue)" width="100%"><figcaption>
+      <p><strong>Impedance Model (red) and Background Model (blue)</strong></p>
+    </figcaption>
 </figure>
 
-<figure class="img-centered"><img src="image-03.png"
-         alt="Impedance Model (red) and Seismic Model (blue)" width="100%"/><figcaption>
-            <p><strong>Impedance Model (red) and Seismic Model (blue)</strong></p>
-        </figcaption>
+<figure class="img-centered"><img src="/blog/python-external-attributes-pylops/image-03.png"
+    alt="Impedance Model (red) and Seismic Model (blue)" width="100%"><figcaption>
+      <p><strong>Impedance Model (red) and Seismic Model (blue)</strong></p>
+    </figcaption>
 </figure>
 
-<figure class="img-centered"><img src="image-04.png"
-         alt="Impedance Model (red) and Inverted Impedance (blue)" width="100%"/><figcaption>
-            <p><strong>Impedance Model (red) and Inverted Impedance (blue)</strong></p>
-        </figcaption>
+<figure class="img-centered"><img src="/blog/python-external-attributes-pylops/image-04.png"
+    alt="Impedance Model (red) and Inverted Impedance (blue)" width="100%"><figcaption>
+      <p><strong>Impedance Model (red) and Inverted Impedance (blue)</strong></p>
+    </figcaption>
 </figure>
 </p>
 <p>There is also a PyLops/ex_poststack_relative_inversion.py script that runs the inversion without a background model:
-<figure class="img-centered"><img src="image-05.png"
-         alt="Impedance Model (red) and Inverted Relative Impedance (blue)" width="100%"/><figcaption>
-            <p><strong>Impedance Model (red) and Inverted Relative Impedance (blue)</strong></p>
-        </figcaption>
+<figure class="img-centered"><img src="/blog/python-external-attributes-pylops/image-05.png"
+    alt="Impedance Model (red) and Inverted Relative Impedance (blue)" width="100%"><figcaption>
+      <p><strong>Impedance Model (red) and Inverted Relative Impedance (blue)</strong></p>
+    </figcaption>
 </figure>
 </p>
-<figure class="img-centered"><img src="image-07.png"
-         alt="Inverted Relative Impedance Example" width="100%"/><figcaption>
-            <p><strong>Inverted Relative Impedance Example</strong></p>
-        </figcaption>
+<figure class="img-centered"><img src="/blog/python-external-attributes-pylops/image-07.png"
+    alt="Inverted Relative Impedance Example" width="100%"><figcaption>
+      <p><strong>Inverted Relative Impedance Example</strong></p>
+    </figcaption>
 </figure>
 
 <h2 id="prestack-modelling">Prestack Modelling</h2>
-<figure class="img-centered"><img src="image-06.png" width="90%"/>
+<figure class="img-centered"><img src="/blog/python-external-attributes-pylops/image-06.png" width="90%">
 </figure>
 
 <p>The PyLops/ex_prestack_modelling.py script uses the pylops.avo.avo.AVOLinearModelling operator to create a
@@ -269,7 +269,7 @@ context menu in the scene well tree or the &ldquo;Processing|Create Seismic Outp
 needed is a wavelet with the appropriate polarity for the data being modelled.</p>
 <p>The generated synthetics can be displayed in the 3D window and compared with real angle stack data through the
 well location.
-<figure class="img-centered"><img src="image-02.jpg" width="100%"/>
+<figure class="img-centered"><img src="/blog/python-external-attributes-pylops/image-02.jpg" width="100%">
 </figure>
 </p>
 <h2 id="installing-pylops">Installing PyLops</h2>
@@ -305,7 +305,7 @@ well location.
         <form action="//google.com/search" method="get" accept-charset="UTF-8" role="search">
             <div class="input-group">
                 <input type="search" name="q" class="form-control" placeholder="Search">
-                <input type="hidden" name="sitesearch" value="https://waynegm.github.io/">
+                <input type="hidden" name="sitesearch" value="http://localhost:1313/">
                 <span class="input-group-btn">
                     <button type="submit" class="btn btn-template-main"><i class="fas fa-search"></i></button>
                 </span>

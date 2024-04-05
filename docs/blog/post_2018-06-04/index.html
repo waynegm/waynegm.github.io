@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
@@ -18,7 +18,7 @@
   
   <meta name="description" content="">
 
-  <meta name="generator" content="Hugo 0.96.0" />
+  <meta name="generator" content="Hugo 0.124.1">
 
   
   <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
@@ -55,7 +55,7 @@
   <link href="/css/owl.theme.css" rel="stylesheet">
 
   
-  <link rel="alternate" href="https://waynegm.github.io/index.xml" type="application/rss+xml" title="WM Seismic Solutions">
+  <link rel="alternate" href="http://localhost:1313/index.xml" type="application/rss+xml" title="WM Seismic Solutions">
 
   
   
@@ -204,10 +204,10 @@ converts inline and crossline dip to true dip and dip azimuth. It is an example 
 output. Some basic understanding of <a href="https://www.python.org/">Python</a> and <a href="http://www.numpy.org/">Numpy</a> is assumed.</p>
 <p>Every Python attribute script has 5 sections.</p>
 <h2 id="the-imports">The Imports</h2>
-<figure class="img-centered"><img src="18_06_04_01.png"
-         alt="Imports Section" width="90%"/><figcaption>
-            <p><strong>Imports Section</strong></p>
-        </figcaption>
+<figure class="img-centered"><img src="/blog/post_2018-06-04/18_06_04_01.png"
+    alt="Imports Section" width="90%"><figcaption>
+      <p><strong>Imports Section</strong></p>
+    </figcaption>
 </figure>
 
 <p>This is where external modules/libraries required by the script are loaded. At a minimum the script must load:</p>
@@ -219,34 +219,34 @@ output. Some basic understanding of <a href="https://www.python.org/">Python</a>
 <p>Generally sys, os and Numpy will be part of the Python installation. The extattrib module is part of the [wmscripts] package and its location is unknown to the Python installation unless we help out. The sys.path.insert call on line 11 provides this help by extending the default search path for Python modules to include the parent folder of the folder containing the script. This reflects the folder structure of the [wmscripts] package, so if you develop scripts outside this structure then you will need to change line 11 appropriately to append the location of extattrib.py to the module search path.</p>
 <p>Of course if your script requires other Python modules (eg SciPy, Numba) then add the appropriate import statements in this section.</p>
 <h2 id="the-parameters">The Parameters</h2>
-<figure class="img-centered"><img src="18_06_04_02.png"
-         alt="UI Parameters" width="90%"/><figcaption>
-            <p><strong>UI Parameters</strong></p>
-        </figcaption>
+<figure class="img-centered"><img src="/blog/post_2018-06-04/18_06_04_02.png"
+    alt="UI Parameters" width="90%"><figcaption>
+      <p><strong>UI Parameters</strong></p>
+    </figcaption>
 </figure>
 
 <p>The xa.params global variable must be assigned a JSON object string describing the input parameters for the script. This JSON string is used by the plugin to build an input dialog box. This attribute is very simple specifying just 2 input volumes and 2 output volumes and a url for documentation. The plugin dynamically builds the following input dialog for this script:</p>
-<figure class="img-centered"><img src="18_06_04_06.png"
-         alt="UI Appearance" width="90%"/><figcaption>
-            <p><strong>UI Appearance</strong></p>
-        </figcaption>
+<figure class="img-centered"><img src="/blog/post_2018-06-04/18_06_04_06.png"
+    alt="UI Appearance" width="90%"><figcaption>
+      <p><strong>UI Appearance</strong></p>
+    </figcaption>
 </figure>
 
 <p>A variety of other input elements can be specified to build more complex input dialogs. See the [../plugins/ExternalAttrib#JSON Parameter String] section of the plugin documentation for full details or look at other scripts to see what is possible.</p>
 <h2 id="the-compute-loop-initialisation">The Compute Loop Initialisation</h2>
-<figure class="img-centered"><img src="18_06_04_03.png"
-         alt="Compute Initialisation" width="90%"/><figcaption>
-            <p><strong>Compute Initialisation</strong></p>
-        </figcaption>
+<figure class="img-centered"><img src="/blog/post_2018-06-04/18_06_04_03.png"
+    alt="Compute Initialisation" width="90%"><figcaption>
+      <p><strong>Compute Initialisation</strong></p>
+    </figcaption>
 </figure>
 
 <p>The doCompute function is where the attribute calculation occurs. The function is divided into 2 parts some initialisation and the &ldquo;while True:&rdquo; loop, discussed in the next section, where the calculations actually take place. Any code in this initialisation section will be executed just once when the attribute script is run and is a good place to calculate constants for use in the Compute Loop.</p>
 <p>This particular script shows how information stored in the [../plugins/ExternalAttrib#SeismicInfo Block] can be used to calculate some constants purely as an example. This attribute is so simple that no initialisation is actually required.</p>
 <h2 id="the-compute-loop">The Compute Loop</h2>
-<figure class="img-centered"><img src="18_06_04_04.png"
-         alt="Compute Loop" width="90%"/><figcaption>
-            <p><strong>Compute Loop</strong></p>
-        </figcaption>
+<figure class="img-centered"><img src="/blog/post_2018-06-04/18_06_04_04.png"
+    alt="Compute Loop" width="90%"><figcaption>
+      <p><strong>Compute Loop</strong></p>
+    </figcaption>
 </figure>
 
 <p>This is where the attribute calculation takes place. The <em>xa.doInput()</em> and <em>xa.doOutput()</em> function calls control the input and output of seismic trace data between the script and OpendTect. Generally these should be the first and last statements within the compute loop.</p>
@@ -254,10 +254,10 @@ output. Some basic understanding of <a href="https://www.python.org/">Python</a>
 <p>The global Numpy array <em>xa.Input</em> contains the input trace data. <em>xa.Input[&rsquo;name of input attribute&rsquo;]</em> returns a Numpy array with the trace data for the current compute location. The shape of this Numpy array depends on the traces stepouts required by the attribute. As this particular script uses just single trace input (inline and crossline step out of 0) the Numpy array has a shape of <em>(1,1,xa.TI[&rsquo;nrsamp&rsquo;])</em>. In the more general case of a multi-trace attribute the Numpy array shape would be <em>(xa.SI[&rsquo;nrinl&rsquo;], xa.SI[&rsquo;nrcrl&rsquo;], xa.TI[&rsquo;nrsamp&rsquo;])</em> and the input trace at the current location would be at the centre of the array, ie at index <em>[xa.SI[&rsquo;nrinl&rsquo;]//2, xa.SI[&rsquo;nrcrl&rsquo;]//2,&hellip;]</em>.</p>
 <p>Attribute ouput must be put into the <em>xa.Output</em> global Numpy array before the <em>xa.doOutput()</em> function call. Each element (eg <em>xa.Output[&rsquo;name of output attribute&rsquo;]</em>) of the output array must have a shape of <em>(1,1,xa.TI[&rsquo;nrsamp&rsquo;])</em></p>
 <h2 id="the-postamble">The Postamble</h2>
-<figure class="img-centered"><img src="18_06_04_05.png"
-         alt="Wrapping up" width="90%"/><figcaption>
-            <p><strong>Wrapping up</strong></p>
-        </figcaption>
+<figure class="img-centered"><img src="/blog/post_2018-06-04/18_06_04_05.png"
+    alt="Wrapping up" width="90%"><figcaption>
+      <p><strong>Wrapping up</strong></p>
+    </figcaption>
 </figure>
 
 <p>This section is just boilerplate code that apprears in every attribute script which should never be changed.</p>
@@ -289,7 +289,7 @@ output. Some basic understanding of <a href="https://www.python.org/">Python</a>
         <form action="//google.com/search" method="get" accept-charset="UTF-8" role="search">
             <div class="input-group">
                 <input type="search" name="q" class="form-control" placeholder="Search">
-                <input type="hidden" name="sitesearch" value="https://waynegm.github.io/">
+                <input type="hidden" name="sitesearch" value="http://localhost:1313/">
                 <span class="input-group-btn">
                     <button type="submit" class="btn btn-template-main"><i class="fas fa-search"></i></button>
                 </span>

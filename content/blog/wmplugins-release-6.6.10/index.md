@@ -5,8 +5,8 @@ banner: /blog/wmplugins-release-6.6.10/image-01.png
 categories: ["release"]
 tags: ["AVOPolarAttrib", "EFDAttrib", "ExternalAttrib", "Mistie", "Python"]
 ---
-Announcing the release of version 6.6.10 of the WMPlugins a suite of opensource plugins that extend the opensource seismic interpretation
-system [OpendTect](https://dgbes.com/index.php/software#free). This release is built against OpendTect 6.6.7.
+Announcing the release of version 6.6.10 of the [WMPlugins](https://waynegm.github.io/WMPlugin-Docs/) a suite of opensource plugins that extend the opensource seismic interpretation
+system [OpendTect](https://dgbes.com/software/plugins/free-third-party-plugins). This release is built against OpendTect 6.6.7.
 <!--more-->
 
 The release includes the following changes:

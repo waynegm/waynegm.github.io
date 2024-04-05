@@ -1,43 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>article on WM Seismic Solutions</title>
-    <link>https://waynegm.github.io/categories/article/</link>
-    <description>Recent content in article on WM Seismic Solutions</description>
+    <title>Article on WM Seismic Solutions</title>
+    <link>http://localhost:1313/categories/article/</link>
+    <description>Recent content in Article on WM Seismic Solutions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://waynegm.github.io/categories/article/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/article/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First Release of Python Bindings to OpendTect</title>
-      <link>https://waynegm.github.io/blog/opendtect-python-bindings-release/</link>
+      <link>http://localhost:1313/blog/opendtect-python-bindings-release/</link>
       <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://waynegm.github.io/blog/opendtect-python-bindings-release/</guid>
-      <description>&lt;p&gt;The 6.6.8 release of the wmPlugins includes a Python module, &lt;strong&gt;wmodpy&lt;/strong&gt;, to access OpendTect survey and well information. Unlike
-OpendTect&amp;rsquo;s existing &lt;strong&gt;odpy&lt;/strong&gt; module, &lt;strong&gt;wmodpy&lt;/strong&gt; is a direct binding to the OpendTect C++ code.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/blog/opendtect-python-bindings-release/</guid>
+      <description>&lt;p&gt;The 6.6.8 release of the wmPlugins includes a Python module, &lt;strong&gt;wmodpy&lt;/strong&gt;, to access OpendTect survey and well information. Unlike&#xA;OpendTect&amp;rsquo;s existing &lt;strong&gt;odpy&lt;/strong&gt; module, &lt;strong&gt;wmodpy&lt;/strong&gt; is a direct binding to the OpendTect C++ code.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Seismic Modelling and Inversion using PyLops based Python External Attributes</title>
-      <link>https://waynegm.github.io/blog/python-external-attributes-pylops/</link>
+      <link>http://localhost:1313/blog/python-external-attributes-pylops/</link>
       <pubDate>Sat, 26 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://waynegm.github.io/blog/python-external-attributes-pylops/</guid>
-      <description>&lt;p&gt;The 6.6.8 release of the wmPlugins includes a number of new Python external attribute scripts that use the
-&lt;a href=&#34;https://pylops.readthedocs.io/en/latest/&#34;&gt;PyLops&lt;/a&gt; linear operator library for seismic modelling and inversion.
-These scripts also demonstrate the use of the new user interface parameter elements introduced in the 6.6.8 release
-of the External Attribute plugin.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/blog/python-external-attributes-pylops/</guid>
+      <description>&lt;p&gt;The 6.6.8 release of the wmPlugins includes a number of new Python external attribute scripts that use the&#xA;&lt;a href=&#34;https://pylops.readthedocs.io/en/latest/&#34;&gt;PyLops&lt;/a&gt; linear operator library for seismic modelling and inversion.&#xA;These scripts also demonstrate the use of the new user interface parameter elements introduced in the 6.6.8 release&#xA;of the External Attribute plugin.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>GPU vs CPU Benchmarks for OpendTect Attribute Plugins</title>
-      <link>https://waynegm.github.io/blog/post_2019-01-07/</link>
+      <link>http://localhost:1313/blog/post_2019-01-07/</link>
       <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://waynegm.github.io/blog/post_2019-01-07/</guid>
-      <description>Summary The potential to offload calculations to the graphics processing unit (GPU) on modern graphics cards is a trending topic. I was curious if this could also apply to seismic attribute calculation in OpendTect, so I implemented AVO polarization angle estimation as described by Mahob and Castagna (2003) using 3 different approaches:
- using loops for all the linear algebra and OpendTect&amp;rsquo;s multi dimensional arrays (ArrayNDImpl) which I refer to as the Normal method; using the Eigen linear algebra C++ template library (the Eigen method) and using the ArrayFire linear algebra library for GPU&amp;rsquo;s (the ArrayFire method).</description>
+      <guid>http://localhost:1313/blog/post_2019-01-07/</guid>
+      <description>Summary The potential to offload calculations to the graphics processing unit (GPU) on modern graphics cards is a trending topic. I was curious if this could also apply to seismic attribute calculation in OpendTect, so I implemented AVO polarization angle estimation as described by Mahob and Castagna (2003) using 3 different approaches:&#xA;using loops for all the linear algebra and OpendTect&amp;rsquo;s multi dimensional arrays (ArrayNDImpl) which I refer to as the Normal method; using the Eigen linear algebra C++ template library (the Eigen method) and using the ArrayFire linear algebra library for GPU&amp;rsquo;s (the ArrayFire method).</description>
     </item>
-    
   </channel>
 </rss>

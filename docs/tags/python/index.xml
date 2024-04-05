@@ -1,89 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>python on WM Seismic Solutions</title>
-    <link>https://waynegm.github.io/tags/python/</link>
-    <description>Recent content in python on WM Seismic Solutions</description>
+    <title>Python on WM Seismic Solutions</title>
+    <link>http://localhost:1313/tags/python/</link>
+    <description>Recent content in Python on WM Seismic Solutions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://waynegm.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WMPlugins 6.6.10 Release</title>
-      <link>https://waynegm.github.io/blog/wmplugins-release-6.6.10/</link>
+      <link>http://localhost:1313/blog/wmplugins-release-6.6.10/</link>
       <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://waynegm.github.io/blog/wmplugins-release-6.6.10/</guid>
-      <description>&lt;p&gt;Announcing the release of version 6.6.10 of the WMPlugins a suite of opensource plugins that extend the opensource seismic interpretation
-system &lt;a href=&#34;https://dgbes.com/index.php/software#free&#34;&gt;OpendTect&lt;/a&gt;. This release is built against OpendTect 6.6.7.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/blog/wmplugins-release-6.6.10/</guid>
+      <description>&lt;p&gt;Announcing the release of version 6.6.10 of the WMPlugins a suite of opensource plugins that extend the opensource seismic interpretation&#xA;system &lt;a href=&#34;https://dgbes.com/index.php/software#free&#34;&gt;OpendTect&lt;/a&gt;. This release is built against OpendTect 6.6.7.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>First Release of Python Bindings to OpendTect</title>
-      <link>https://waynegm.github.io/blog/opendtect-python-bindings-release/</link>
+      <link>http://localhost:1313/blog/opendtect-python-bindings-release/</link>
       <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://waynegm.github.io/blog/opendtect-python-bindings-release/</guid>
-      <description>&lt;p&gt;The 6.6.8 release of the wmPlugins includes a Python module, &lt;strong&gt;wmodpy&lt;/strong&gt;, to access OpendTect survey and well information. Unlike
-OpendTect&amp;rsquo;s existing &lt;strong&gt;odpy&lt;/strong&gt; module, &lt;strong&gt;wmodpy&lt;/strong&gt; is a direct binding to the OpendTect C++ code.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/blog/opendtect-python-bindings-release/</guid>
+      <description>&lt;p&gt;The 6.6.8 release of the wmPlugins includes a Python module, &lt;strong&gt;wmodpy&lt;/strong&gt;, to access OpendTect survey and well information. Unlike&#xA;OpendTect&amp;rsquo;s existing &lt;strong&gt;odpy&lt;/strong&gt; module, &lt;strong&gt;wmodpy&lt;/strong&gt; is a direct binding to the OpendTect C++ code.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Seismic Modelling and Inversion using PyLops based Python External Attributes</title>
-      <link>https://waynegm.github.io/blog/python-external-attributes-pylops/</link>
+      <link>http://localhost:1313/blog/python-external-attributes-pylops/</link>
       <pubDate>Sat, 26 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://waynegm.github.io/blog/python-external-attributes-pylops/</guid>
-      <description>&lt;p&gt;The 6.6.8 release of the wmPlugins includes a number of new Python external attribute scripts that use the
-&lt;a href=&#34;https://pylops.readthedocs.io/en/latest/&#34;&gt;PyLops&lt;/a&gt; linear operator library for seismic modelling and inversion.
-These scripts also demonstrate the use of the new user interface parameter elements introduced in the 6.6.8 release
-of the External Attribute plugin.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/blog/python-external-attributes-pylops/</guid>
+      <description>&lt;p&gt;The 6.6.8 release of the wmPlugins includes a number of new Python external attribute scripts that use the&#xA;&lt;a href=&#34;https://pylops.readthedocs.io/en/latest/&#34;&gt;PyLops&lt;/a&gt; linear operator library for seismic modelling and inversion.&#xA;These scripts also demonstrate the use of the new user interface parameter elements introduced in the 6.6.8 release&#xA;of the External Attribute plugin.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Using Visual Studio Code with OpendTect</title>
-      <link>https://waynegm.github.io/blog/vscode-python-setup/</link>
+      <link>http://localhost:1313/blog/vscode-python-setup/</link>
       <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://waynegm.github.io/blog/vscode-python-setup/</guid>
-      <description>&lt;p&gt;In this post I show you how to set up and use the free &lt;a href=&#34;https://code.visualstudio.com/&#34;&gt;Visual Studio Code&lt;/a&gt; editor with OpendTect for interactive
-computation using Python Jupyter Notebooks. If you have installed the OpendTect Machine Learning Python environments you can
-create and edit Python Jupyter Notebooks using Visual Studio Code without modifying the installed environment provided VS Code is run from within
-OpendTect. The approach described in this post might assist users in strictly controlled IT settings get up and running using Jupyter Notebooks.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/blog/vscode-python-setup/</guid>
+      <description>&lt;p&gt;In this post I show you how to set up and use the free &lt;a href=&#34;https://code.visualstudio.com/&#34;&gt;Visual Studio Code&lt;/a&gt; editor with OpendTect for interactive&#xA;computation using Python Jupyter Notebooks. If you have installed the OpendTect Machine Learning Python environments you can&#xA;create and edit Python Jupyter Notebooks using Visual Studio Code without modifying the installed environment provided VS Code is run from within&#xA;OpendTect. The approach described in this post might assist users in strictly controlled IT settings get up and running using Jupyter Notebooks.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Python External Attribute Tips &amp; Tricks - Debugging</title>
-      <link>https://waynegm.github.io/blog/post_2018-06-08/</link>
+      <link>http://localhost:1313/blog/post_2018-06-08/</link>
       <pubDate>Fri, 08 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://waynegm.github.io/blog/post_2018-06-08/</guid>
-      <description>Introduction Because the Python [../plugins/ExternalAttrib] script is running in a process started by the OpendTect application most standard methods to examine the script as it runs, eg using the standard Python debugger pdb, are not available.
-A solution is to use the Web-PDB Python module which allows the Python script to be debugged remotely in a web-browser.
-Web-PDB Installation Web-PDB is not included by default in most Python installations but it can be easily added using pip:</description>
+      <guid>http://localhost:1313/blog/post_2018-06-08/</guid>
+      <description>Introduction Because the Python [../plugins/ExternalAttrib] script is running in a process started by the OpendTect application most standard methods to examine the script as it runs, eg using the standard Python debugger pdb, are not available.&#xA;A solution is to use the Web-PDB Python module which allows the Python script to be debugged remotely in a web-browser.&#xA;Web-PDB Installation Web-PDB is not included by default in most Python installations but it can be easily added using pip:</description>
     </item>
-    
     <item>
       <title>Python External Attribute Tips &amp; Tricks - Logging</title>
-      <link>https://waynegm.github.io/blog/post_2018-06-06/</link>
+      <link>http://localhost:1313/blog/post_2018-06-06/</link>
       <pubDate>Wed, 06 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://waynegm.github.io/blog/post_2018-06-06/</guid>
-      <description>Introduction It is possible to write information to the OpendTect logfile from inside a Python [../plugins/ExternalAttrib] script.
-The global variable xa.logH (assuming the extattrib module has been imported using import extattrib as xa) is a Python logger object.
-An Example  On line 18 the Python logger is modified by adjusting the severity level of messages that will appear in the log file. By default only CRITICAL, ERROR and WARNING messages will be written.</description>
+      <guid>http://localhost:1313/blog/post_2018-06-06/</guid>
+      <description>Introduction It is possible to write information to the OpendTect logfile from inside a Python [../plugins/ExternalAttrib] script.&#xA;The global variable xa.logH (assuming the extattrib module has been imported using import extattrib as xa) is a Python logger object.&#xA;An Example On line 18 the Python logger is modified by adjusting the severity level of messages that will appear in the log file. By default only CRITICAL, ERROR and WARNING messages will be written.</description>
     </item>
-    
     <item>
       <title>Anatomy of a Python External Attribute</title>
-      <link>https://waynegm.github.io/blog/post_2018-06-04/</link>
+      <link>http://localhost:1313/blog/post_2018-06-04/</link>
       <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://waynegm.github.io/blog/post_2018-06-04/</guid>
-      <description>Introduction This article will review the structure of a simple Python [../plugins/ExternalAttrib] script, ex_dip.py, which converts inline and crossline dip to true dip and dip azimuth. It is an example of multi attribute, single trace input and output. Some basic understanding of Python and Numpy is assumed.
-Every Python attribute script has 5 sections.
-The Imports  Imports Section
-  This is where external modules/libraries required by the script are loaded.</description>
+      <guid>http://localhost:1313/blog/post_2018-06-04/</guid>
+      <description>Introduction This article will review the structure of a simple Python [../plugins/ExternalAttrib] script, ex_dip.py, which converts inline and crossline dip to true dip and dip azimuth. It is an example of multi attribute, single trace input and output. Some basic understanding of Python and Numpy is assumed.&#xA;Every Python attribute script has 5 sections.&#xA;The Imports Imports Section&#xA;This is where external modules/libraries required by the script are loaded. At a minimum the script must load:</description>
     </item>
-    
   </channel>
 </rss>
